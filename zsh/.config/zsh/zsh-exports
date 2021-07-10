@@ -10,6 +10,9 @@ export MANWIDTH=999
 # CYPRESS
 export CYPRESS_INSTALL_BINARY=0
 
+# Neovim install path
+export PATH="$HOME/neovim/bin:$PATH"
+
 #export PATH=$HOME/.cargo/bin:$PATH
 #export PATH=$HOME/.local/share/go/bin:$PATH
 #export GOPATH=$HOME/.local/share/go
