@@ -13,6 +13,10 @@ export CYPRESS_INSTALL_BINARY=0
 # Neovim install path
 export PATH="$HOME/neovim/bin:$PATH"
 
+# LunarVim path
+export PATH=$HOME/.config/lunarvim/utils/bin:$PATH
+
+
 #export PATH=$HOME/.cargo/bin:$PATH
 #export PATH=$HOME/.local/share/go/bin:$PATH
 #export GOPATH=$HOME/.local/share/go
