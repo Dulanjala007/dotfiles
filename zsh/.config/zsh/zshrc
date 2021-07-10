@@ -11,7 +11,7 @@ unsetopt BEEP
 
 
 # completions
-#zstyle ':completion:*' menu select
+zstyle ':completion:*' menu select
 
 zstyle ':completion:*:*:git:*' script $ZDOTDIR/completion/git-completion.bash
 fpath=($ZDOTDIR/completion $fpath)
