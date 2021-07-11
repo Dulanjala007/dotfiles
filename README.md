@@ -21,3 +21,4 @@ stow */ # Everything (the '/' ignores the README)
 stow zsh # Just my zsh config
 ```
 
+Run 'ubuntu-wsl2-systemd-script.sh' in systemd-setup for enabling Systemd
