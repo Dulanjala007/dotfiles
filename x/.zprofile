@@ -37,3 +37,7 @@ export XDG_DATA_HOME=$HOME/.local/share
 
 # zsh config dir
 export ZDOTDIR=$HOME/.config/zsh
+
+
+# Start or enter a PID namespace in WSL2
+source /usr/sbin/start-systemd-namespace
