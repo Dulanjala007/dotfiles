@@ -17,8 +17,8 @@ export PATH=$HOME/.config/lunarvim/utils/bin:$PATH
 
 
 #export PATH=$HOME/.cargo/bin:$PATH
-#export PATH=$HOME/.local/share/go/bin:$PATH
-#export GOPATH=$HOME/.local/share/go
+export PATH=$HOME/.local/share/go/bin:$PATH
+export GOPATH=$HOME/.local/share/go
 
 eval "$(zoxide init zsh)"
 # eval "`pip completion --zsh`"
