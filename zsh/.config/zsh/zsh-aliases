@@ -25,6 +25,8 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 
+# lazy git
+alias lg="lazygit"
 
 alias m="git checkout master"
 alias s="git checkout stable"
