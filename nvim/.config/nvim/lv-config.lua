@@ -7,7 +7,7 @@ an executable
 ]] -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 -- general
 O.auto_complete = true
-O.colorscheme = 'lunar'
+O.colorscheme = "spacegray"
 O.auto_close_tree = 0
 O.wrap_lines = false
 O.timeoutlen = 100
@@ -22,19 +22,19 @@ O.lushmode = true
 -- O.plugin.dial.active = true
 O.plugin.dashboard.active = true
 -- O.plugin.matchup.active = true
-O.plugin.colorizer.active = true
+-- O.plugin.colorizer.active = true
 -- O.plugin.numb.active = true
-O.plugin.ts_playground.active = true
-O.plugin.indent_line.active = false
+-- O.plugin.ts_playground.active = true
+-- O.plugin.indent_line.active = false
 -- O.plugin.gitlinker.active = true
-O.plugin.debug.active = true
+-- O.plugin.debug.active = true
 -- O.plugin.bqf.active = true
 -- O.plugin.ranger.active = true
 -- O.plugin.spectre.active = true
-O.plugin.dap_install.active = true
-O.plugin.telescope_project.active = true
-O.plugin.trouble.active = true
-O.plugin.telescope_fzy.active = true
+-- O.plugin.dap_install.active = true
+-- O.plugin.telescope_project.active = true
+-- O.plugin.trouble.active = true
+-- O.plugin.telescope_fzy.active = true
 -- O.plugin.lsp_rooter.active = true
 -- O.plugin.lazygit.active = true
 O.plugin.zen.active = true
@@ -76,8 +76,8 @@ O.lang.lua.formatter = 'lua-format'
 O.lang.lua.autoformat = false
 
 -- javascript
-O.lang.tsserver.formatter = 'prettier'
-O.lang.tsserver.linter = nil
+O.lang.tsserver.formatter = 'prettier_d_slim'
+O.lang.tsserver.linter = 'eslint_d'
 O.lang.tsserver.autoformat = true
 
 -- json
