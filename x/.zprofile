@@ -27,7 +27,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # Environment variables set everywhere
-export EDITOR="nvim"
+export EDITOR="lvim"
 
 
 # XDG Paths
